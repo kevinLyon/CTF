@@ -1,0 +1,121 @@
+_______________________________________________________________
+         __          _______   _____
+         \ \        / /  __ \ / ____|
+          \ \  /\  / /| |__) | (___   ___  __ _ _ __ ®
+           \ \/  \/ / |  ___/ \___ \ / __|/ _` | '_ \
+            \  /\  /  | |     ____) | (__| (_| | | | |
+             \/  \/   |_|    |_____/ \___|\__,_|_| |_|
+
+         WordPress Security Scanner by the WPScan Team
+                         Version 3.8.10
+       Sponsored by Automattic - https://automattic.com/
+       @_WPScan_, @ethicalhack3r, @erwan_lr, @firefart
+_______________________________________________________________
+
+[32m[+][0m URL: http://172.18.2.3/wordpress/ [172.18.2.3]
+[32m[+][0m Started: Fri Jan 22 02:35:20 2021
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entry: Server: Apache/2.4.29 (Ubuntu)
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m XML-RPC seems to be enabled: http://172.18.2.3/wordpress/xmlrpc.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | References:
+ |  - http://codex.wordpress.org/XML-RPC_Pingback_API
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner
+ |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access
+
+[32m[+][0m WordPress readme found: http://172.18.2.3/wordpress/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m Upload directory has listing enabled: http://172.18.2.3/wordpress/wp-content/uploads/
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m The external WP-Cron seems to be enabled: http://172.18.2.3/wordpress/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[32m[+][0m WordPress version 5.0.11 identified (Latest, released on 2020-10-29).
+ | Found By: Rss Generator (Passive Detection)
+ |  - http://172.18.2.3/wordpress/index.php/feed/, <generator>https://wordpress.org/?v=5.0.11</generator>
+ |  - http://172.18.2.3/wordpress/index.php/comments/feed/, <generator>https://wordpress.org/?v=5.0.11</generator>
+
+[32m[+][0m WordPress theme in use: simplent
+ | Location: http://172.18.2.3/wordpress/wp-content/themes/simplent/
+ | Latest Version: 1.2.6 (up to date)
+ | Last Updated: 2018-01-10T00:00:00.000Z
+ | Readme: http://172.18.2.3/wordpress/wp-content/themes/simplent/readme.txt
+ | Style URL: http://172.18.2.3/wordpress/wp-content/themes/simplent/style.css?ver=5.0.11
+ | Style Name: Simplent
+ | Description: Simplent is a responsive simple and minimal WordPress Theme, which allow you to create an effective ...
+ | Author: Abdul Rafay
+ | Author URI: https://abdulrafay.me
+ |
+ | Found By: Css Style In Homepage (Passive Detection)
+ |
+ | Version: 1.2.6 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - http://172.18.2.3/wordpress/wp-content/themes/simplent/style.css?ver=5.0.11, Match: 'Version: 1.2.6'
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+[32m[+][0m Checking Plugin Versions (via Passive and Aggressive Methods)
+
+[34m[i][0m Plugin(s) Identified:
+
+[32m[+][0m simply-poll
+ | Location: http://172.18.2.3/wordpress/wp-content/plugins/simply-poll/
+ | Latest Version: 1.4.1 (up to date)
+ | Last Updated: 2012-01-05T16:11:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ |
+ | [31m[!][0m 2 vulnerabilities identified:
+ |
+ | [31m[!][0m Title: Simply Poll 1.4.1 - wp-admin/admin.php question Parameter XSS
+ |     References:
+ |      - https://wpscan.com/vulnerability/29ef1824-cdbc-4135-9798-12b00f06efd8
+ |      - https://www.exploit-db.com/exploits/24850/
+ |      - https://packetstormsecurity.com/files/120833/
+ |
+ | [31m[!][0m Title: Simply Poll 1.4.1 - wp-admin/admin.php Poll Manipulation CSRF
+ |     References:
+ |      - https://wpscan.com/vulnerability/3be72fb8-d5c3-4158-8e2e-7db7b1b173b5
+ |      - https://www.exploit-db.com/exploits/24850/
+ |      - https://packetstormsecurity.com/files/120833/
+ |
+ | Version: 1.4.1 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - http://172.18.2.3/wordpress/wp-content/plugins/simply-poll/readme.txt
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - http://172.18.2.3/wordpress/wp-content/plugins/simply-poll/readme.txt
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |=============================================================================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPVulnDB API OK
+ | Plan: free
+ | Requests Done (during the scan): 0
+ | Requests Remaining: 44
+
+[32m[+][0m Finished: Fri Jan 22 02:35:24 2021
+[32m[+][0m Requests Done: 26
+[32m[+][0m Cached Requests: 37
+[32m[+][0m Data Sent: 6.191 KB
+[32m[+][0m Data Received: 6.164 KB
+[32m[+][0m Memory used: 207.617 MB
+[32m[+][0m Elapsed time: 00:00:04

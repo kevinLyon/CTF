@@ -1,0 +1,34 @@
+Professores universitários e pesquisadores que planejam sabotar uma empresa de venda de 
+software e com isso lucrar bastante dinheiro vendendo suas ideias para a empresa concorrente.
+
+Alvo: 172.18.4.3
+======================================================
+
+Solyd{4s_C0iS4s_L4m3nTaM_}
+
+Meus parabens, sua jornada comeca aqui... 
+Bem, preciso de sua ajuda: Desconfio que um grupo de professores esteja tramando um plano mas nao consigo juntar as provas...
+Logue no meu usuario via ssh julian:*C454BL4NC45*78* que la tem mais detalhes
+=====================================================
+
+usuarios:
+-------------
+julian:*C454BL4NC45*78*
+alex:1986#TH3L45TSH4D0WTURN3R
+brandon:#14MTH3FL0W3R5M4N#81
+liam:iloveyoushakira
+noel:G4LL4GH3R1985
+=========================================================
+Solyd{Y0u_L05T}
+
+Sua chave: 263745N
+===================================
+
+Solyd{0uT_0f_R4nG3}
+----------------------
+encotrada dentro de um .bin -> elf -64
+
+-----------------------------------
+encontrado no .zip -> noel.
+Solyd{Th15_15_TH3_3Nd}
+ pass: 1943

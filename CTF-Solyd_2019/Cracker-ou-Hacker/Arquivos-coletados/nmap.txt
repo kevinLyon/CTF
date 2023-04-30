@@ -1,0 +1,42 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-02-01 18:56 MST
+Nmap scan report for 172.18.1.3
+Host is up (0.23s latency).
+
+PORT      STATE SERVICE VERSION
+21/tcp    open  ftp     vsftpd 2.0.8 or later
+50123/tcp open  unknown
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port50123-TCP:V=7.91%I=7%D=2/1%Time=6018B15E%P=x86_64-pc-linux-gnu%r(NU
+SF:LL,5F,"KEX=4078a_T-f\*Mdt8195N\*D,m;LG\$4322w\(\.\n\|6969{,kU\^6419kzbB
+SF:1173wzGlm\n\$2447#Jibvl3930o%G%WYry5962\|\n")%r(GenericLines,49,"3405c!
+SF:C4554Paiz6299c\nTI#9433icj{GL9604GNM=7995Mb\n9076L9996FL;X;s=214-uL\|\n
+SF:")%r(GetRequest,52,"r3107\\moWU1759i\.\|\$N1007,XYQ\n9256PP#;!@W1508R\\
+SF:U2325F\^\$BI\nm{CT\.509G-Wvgw8135{2649LH\n")%r(HTTPOptions,49,"BI2550=H
+SF:6414#UIy\+WwC8505v\nP1705xS1029310uT\|T_\nD#I\.5013-b8313Yh\.9484n\]Ea@
+SF:\n")%r(RTSPRequest,5A,"7658C!ANdL3763J\\ZehE9134I\$p\nBs\\s8357Pu\.gQ24
+SF:29bU\$\*NUx;j1529fe\n\^a{p{7803-B-7437ruT\(y767Z\\\^W\n")%r(RPCCheck,5C
+SF:,"#T\*rt7559\)WDlTj1262-\.COM,Jwb8933\)IB,\nmgf9427-u!F4314\.Nb4399g\(J
+SF:i\nm=2612{ZWE\^tCk7469hnY\)S3247\n")%r(DNSVersionBindReqTCP,52,"Twy8377
+SF:uHo4714FBX;e6152!\n-800V{pR3708K\]wM6902\+\^\noyn4234\(\]AIDA;;q;7241Kv
+SF:B=\^2506{\)r\n")%r(DNSStatusRequestTCP,59,"4283wPW{qc,h76rHP\*GAeSV1440
+SF:FoF;I\no3885@@cG6049YE\|2701tF\]\nw\|mCi2397n\*mM#U\|456ng@Fq8438}zD\n"
+SF:)%r(Help,59,"B9258Pb{9468EYBCm\^9417V\nZaQ6373L\(3058jZJ#hax\|SF1182-yH
+SF:\noa\(5533Gi-G2513P\^DWa{JJg6864iK\*li\n")%r(SSLSessionReq,54,"X\.-\|44
+SF:25Qx1787D\(;vqgPU6070\n9322omSl\^dY6671B,bgp;8707nW\n\*\|Jd7925\)@\*Jy\
+SF:^4091\+!hEM3020E\n")%r(TerminalServerCookie,55,"cc\]1575\+ltyM5186tZRR\
+SF:(S\.2228\np4994\\\\CRHS595w%\+Q\|z{Q7202\nCVu9965ruBvq1135\+Dbt!4593\$Z
+SF:}r\n")%r(TLSSessionReq,53,"2263xt#\$5174KzjEf4287s\n{dUK4496fc{8688\(\(
+SF:e1474rxkhF\nX5730\|\*HKnCLkH7501t\)Gj4703#TMd\(\n")%r(Kerberos,51,";727
+SF:9z\+7855E;SbHW7377!t\nU\*xoR6735{\*t4250l\.\.q8199\\g\nOb;\+6421yJy7152
+SF:fFuiUKm\+X\.7703\n")%r(SMBProgNeg,53,",x\|E1273zUX\*CbT4760#E_Q4029\nx1
+SF:982QfH,g5518WzG\.N3920sIp\*w\nS\]6576aRt4329UH\\-L-7776xP\n")%r(X11Prob
+SF:e,52,"upJe4496dIoFbm#Ll2786L_zO\.1624\n3238gAr8792T\|Ibqtkh!9506zr\.T\n
+SF:2045a8457eSogY9882D\+\(\n")%r(FourOhFourRequest,45,"G\*FP{967\+p}4738D%
+SF:4115_\nIp1686lzOB\\t26307261;DzA{\nKB2938K2945S{E;2228\n")%r(LPDString,
+SF:4F,"eiD4069\]\\Xph3465wipXfGR\*VU8409\.fQZ\n@\*Q6982a#\|6830zC\\By7163\
+SF:n47464241qAvD{u7347R\n")%r(LDAPSearchReq,5F,"mxd%8985\\tP,nU,P7560R-xUB
+SF:wA\|P1731\n_481t\|QWai,\.b9382}w4177\\OYRd\n,864u\+CAAC\|I}3688TuqZ\$jz
+SF:wJ2872s\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 87.00 seconds

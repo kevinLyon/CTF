@@ -1,0 +1,9 @@
+Solyd{0uT_0f_R4nG3}
+
+Registro 42:
+
+Os irmãos Gallagher andam estranhos... Parecem estar errando cálculos de propósito afim de sabotar o projeto. Por sorte eu salvei os hashes das senhas no zip que acompanha esse executável. Se fizerem engenharia reversa nele verão essa mensagem... E como eu desabilitei os cálculos ninguém irá se machucar. Se você tiver capacidade de quebrar os hashs das senhas por favor investigue os irmãos Gallagher.
+Senha: 70531W
+
+Atensiosamente,
+Brandon

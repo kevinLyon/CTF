@@ -1,0 +1,45 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-19 13:34 AKST
+Nmap scan report for 172.18.2.3
+Host is up (0.031s latency).
+
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 3.0.3
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_drwxr-xr-x    2 ftp      ftp          4096 Jan 09  2019 Comunicados
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to ::ffff:172.18.2.2
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 3
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 c7:06:04:4b:c6:61:0f:e1:9f:87:d1:88:a8:be:63:96 (RSA)
+|   256 b8:01:e7:2a:39:8c:b6:f4:f6:f9:ff:d1:bc:4b:60:80 (ECDSA)
+|_  256 1a:69:e6:b2:91:96:17:33:15:37:c7:a8:23:e7:2b:75 (ED25519)
+80/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+|_http-title: Site doesn't have a title (text/html).
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose
+Running (JUST GUESSING): Oracle Virtualbox (98%), QEMU (92%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu
+Aggressive OS guesses: Oracle Virtualbox (98%), QEMU user mode network gateway (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.08 ms 10.0.2.2
+2   0.10 ms 172.18.2.3
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 23.84 seconds

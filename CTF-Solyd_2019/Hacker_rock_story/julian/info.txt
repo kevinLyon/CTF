@@ -1,0 +1,49 @@
+    Recentemente eu notei um comportamento estranho nos professores do meu cur-
+so eles estão trabalhando em um sistema de navegação avançado para um sistema
+de foguetes. Algumas pessoas andam falando pelo departamento que um dos profes
+sores quer desviar esses códigos para uma organização criminosa para ela fazer
+mísseis. Outros falam que todos os quatro estão com esse plano em mente...
+
+São 4 professores envolvidos nesse trabalho:
+
+    1 - Alex Turner
+        Não sei a data de nascimento exata, só sei que nasceu em 1986 e é espe-
+        cialista em criptografia.
+
+    2 - Brandon Flowers
+        Desenvolvedor experiente, novamente, só sei o ano de nascimento: 1978.
+        O passado dele é misterioso, alguns dizem que ele era um grande aposta-
+        dor que foi banido de Vegas.
+
+        No projeto ele está envolvido com o desenvolvimento direto do código.
+    
+    3 - Liam Gallagher
+        Matemático brilhante, provavelmente está envolvido com o desenvolvi-
+        mento dos métodos para resolução dos cálculos do programa desenvolvido
+        pelo Brandon.
+
+        É irmão de outro professor envolvido com o projeto: Noel Gallagher.
+
+        Não se sabe muito mais sobre ele, apenas o ano de nascimento: 1972.
+
+    4 - Noel Gallagher
+        Irmão do professor Liam Gallagher, não se sabe praticamente nada sobre
+        ele. Apenas que é um pesquisador igualmente brilhante na área de análi-
+        se real.
+
+        Unica informação sólida e que pode ser relevante que tenho sobre ele é
+        que ele nasceu no ano de 1967.
+
+    Alguns dias achei as credênciais de SSH do professor Alex, uma estranha fa-
+lha de segurança para um especialista. Enquanto procurava coisas dentro de seus
+arquivos achei um documento interessante mas não consegui fazer nada pois não
+entendo de criptografia. Caso tenha alguma mensagem comprometedora escondida no
+arquivo haja imediatamente.
+
+Dados SSH do professor Alex:
+alex:1986#TH3L45TSH4D0WTURN3R
+
+Espero que quem achou essas informações possa me ajudar.
+
+Atenciosamente,
+

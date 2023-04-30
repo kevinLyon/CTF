@@ -1,0 +1,12 @@
++----+----------+------------------------------------+--------------------------+------------+-------------+--------------------------------+---------------+---------------------+-----------------------------------------------+
+| ID | user_url | user_pass                          | user_email               | user_login | user_status | display_name                   | user_nicename | user_registered     | user_activation_key                           |
++----+----------+------------------------------------+--------------------------+------------+-------------+--------------------------------+---------------+---------------------+-----------------------------------------------+
+| 1  | <blank>  | $P$BQhmyjkmbjfdo1/DHsIkfJvxJuPI2v/ | admin@rookie.com.br      | admin      | 0           | admin                          | admin         | 2019-01-10 22:35:53 | <blank>                                       |
+| 2  | <blank>  | $P$B/a2iw/F4n1V5tvtUo87xLlVtYA/Ts0 | daniel@rookie.com.br     | daniel     | 0           | Daniel                         | daniel        | 2019-01-10 23:07:27 | <blank>                                       |
+| 3  | <blank>  | $P$BVyqMA6FKWVXbk9RTWPlYSyuctFvSj0 | marcos@rookie.com.br     | marcos     | 0           | Marcos                         | marcos        | 2019-01-10 23:08:15 | <blank>                                       |
+| 4  | <blank>  | ticktock                           | estagiario@rookie.com.br | estagiario | 0           | Estagiario                     | estagiario    | 2019-01-10 23:09:43 | 1547161783:$P$BFA4OiGfhMCmVfkQ..LiOuYOAuR8Qp/ |
+| 5  | <blank>  | $P$ByPPFJthMX.F1alWOvUooB1fQzw8r11 | raquel@rookie.com.br     | raquel     | 0           | Raquel                         | raquel        | 2019-01-10 23:10:43 | <blank>                                       |
+| 6  | <blank>  | $P$B/bpYUIkgb7aVWOr????AJ8BChgxl6/ | flag2@rookie.com.br      | flag2      | 0           | Solyd{w34k_plug1ns_3v3rywher3} | flag2         | 2019-01-10 23:11:39 | <blank>                                       |
++----+----------+------------------------------------+--------------------------+------------+-------------+--------------------------------+---------------+---------------------+-----------------------------------------------+
+
+

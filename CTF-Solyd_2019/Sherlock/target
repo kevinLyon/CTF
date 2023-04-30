@@ -1,0 +1,32 @@
+Sherlock precisa da sua ajuda. 
+Você consegue acabar com os planos do temido Moriarty?
+
+Alvo: 172.18.5.3
+=======================================================
+
+Dir:
+
+/backup.txt
+/login
+========================================================
+
+Users:
+
+SHeRLock:H0LmeS@!01 --> http_login
+moriarty:#m0ri4rty# --> smb_login
+para extrair um arquivo da foto:chefeMoriarty --> Professor_Moriarty.jpep
+moriarty:Mor14rty#@
+======================================================
+flags:
+
+Primeira flag encontrada ao fazer login em seu painel admin:
+-> Solyd{f0und_s0m3_h1dd3n_f1l3s}
+------------------------------------------------------------
+Segunda flag encontrada na raiz("/") do servidor:
+-> Solyd{g0t_th3_r3v_sh3ll}
+---------------------------------------------------------
+Terçeira flag encontrada ao logar em seu ssh:
+-> Solyd{s4w_thr0ugh_th4t_st3g0}
+-------------------------------------------------------
+Quarta flag se consegue após manipular a variável $PATH e adcionando um {CAT} malicioso:
+-> Solyd{f0ll0w_th3_r1ght_p4th}

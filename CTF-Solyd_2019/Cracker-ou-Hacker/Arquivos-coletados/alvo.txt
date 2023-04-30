@@ -1,0 +1,38 @@
+Neste desafio o participante terá que utilizar de conhecimentos 
+gerais em exploração de servidores e arquivos contidos nestes. 
+Ache os arquivos e obtenha todas as flags.
+
+Alvo: 172.18.1.3
+
+Dicas: Lembre-se de bater em todas as portas...
+=====================================================================
+
+
+A primeira flag foi encontrada no servidor ftp:
+
+Solyd{p4ss1v3_4n0nym0us}
+
+======================================================================
+
+flag2 encontrada na porta 50123, utilizado um script em python.
+
+Solyd{m4tr1x_s0ck3t}
+
+=========================================================================
+
+encontrado dentro de um audio dados.wav
+
+(solyd-forense)
+
+=========================================================================
+
+flag3 encontrada dentro do arqiovo license.zip
+
+Solyd{m4g1c_numb3rs_4nd_sp3ctr0gr4m}
+
+=============================================================
+
+ultima flag dentro do arquivo .bin
+
+flag: Solyd{3ng3n33r1ng_r3v3rs3d
+
