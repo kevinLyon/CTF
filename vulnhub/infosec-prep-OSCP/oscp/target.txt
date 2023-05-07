@@ -1,0 +1,43 @@
+- target 192.168.0.116
+---------------------------------
+
+==============  INFO ===============
+- linux
+Apache/2.4.41 (Ubuntu) Server at 192.168.0.116 Port 80
+--> ver=5.4.2
+(possivel versao do wordpress)
+
+==============  INFO ===============
+
+
+--> /robots.txt - 200
+(contem uma key ssh privada encodada em base64)
+-----------------------------------------------------------------
+
+--> http://192.168.0.116/wp-login.php
+(e possivel enumerar ususarios)
+
+--> admin [ found ]
+-------------------------------------------------------------
+
+--> http://192.168.0.116/wp-login.php
+(painel de login nao esta usando criptografia SSL)
+----------------------------------------------------------
+
+--> http://192.168.0.116/index.php/wp-json/wp/v2/users/1
+(usuario encontrado) 
+------------------------------------------------------------
+
+--> Sudo version 1.8.31 
+(possivel exploit mas ainda tenho que testar)
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++=
+
+define( 'DB_NAME', 'wordpress' );
+define( 'DB_USER', 'wordpress' );
+define( 'DB_PASSWORD', 'Oscp12345!' );
+define( 'DB_HOST', 'localhost' );
+
++++++++++++++++++++++++++++++++++++++++++++++++++
