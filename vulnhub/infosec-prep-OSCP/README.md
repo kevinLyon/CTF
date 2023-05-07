@@ -16,7 +16,7 @@ Temos um novo alvo, como de costume não temos qualquer informação sobre sobre
 Um bom começo é enumerar suas portas para descobrir com o que estamos lidando
 </p>
 
-![nmap](oscp\images\nmap.PNG "nmap scan")
+![nmap](oscp/images/nmap.PNG "nmap scan")
 >Neste ponto vale resaltar que foi feito um scan em todas as 65535 portas e de cara vemos o mysql rodando em um porta alta, por este motivo sempre preso por rodar um scan em todas as portas possíveis.
 
 <p>
@@ -33,7 +33,7 @@ Agora que temos uma boa noção do que está rodando, vou direto para a porta 80
 
 <div style="text-align: center;">
 
-![banner](oscp\images\banner.png "banner")
+![banner](oscp/images/banner.png "banner")
 
 </div>
 
@@ -46,8 +46,8 @@ Em meio a navegação testo o famoso "robots.txt" e temos algo interessante no r
 
 <div style="text-align: center;">
 
-![banner](oscp\images\robot.png "banner")
-![banner](oscp\images\secret.png "banner")
+![banner](oscp/images/robot.png "banner")
+![banner](oscp/images/secret.png "banner")
 </div>
 
 <p>
@@ -56,7 +56,7 @@ Ao ir atrás desse diretório vemos que não esta vazio e para nossa alegria par
 
 <div style="text-align: center;">
 
-![banner](oscp\images\base64.png "banner")
+![banner](oscp/images/base64.png "banner")
 </div>
 
 <p>
@@ -72,7 +72,7 @@ Além destes problemas o painel continha uma vulnerabilidade que permitia enumer
 
 <div style="text-align: center;">
 
-![banner](oscp\images\admin.png "banner")
+![banner](oscp/images/admin.png "banner")
 </div>
 
 <p>
@@ -82,7 +82,7 @@ Uma explicação rápida no meio das chamadas de API do wordpress havia um endpo
 
 <div style="text-align: center;">
 
-![banner](oscp\images\usuarios.png "banner")
+![banner](oscp/images/usuarios.png "banner")
 </div>
 
 >Nesta situação tinhamos apenas um usuário disponivel
@@ -94,7 +94,7 @@ Por se tratar de um site wordpress é comum encontrarmos plugins com falhas já 
 
 <div style="text-align: center;">
 
-![banner](oscp\images\wpscan.PNG "banner")
+![banner](oscp/images/wpscan.PNG "banner")
 </div>
 
 <p>
@@ -115,7 +115,7 @@ Acabou a diversão hora de entrarmos...
 
 <div style="text-align: center;">
 
-![banner](oscp\images\init.png "banner")
+![banner](oscp/images/init.png "banner")
 </div>
 
 
@@ -131,7 +131,7 @@ Durante e exploração achei usuário e senha pra o banco de dado, o que me anim
 
 <div style="text-align: center;">
 
-![banner](oscp\images\mysql.png "banner")
+![banner](oscp/images/mysql.png "banner")
 </div>
 
 
@@ -148,7 +148,7 @@ Em minhas escalações de privílegio gosto bastante e sempre que possível atri
 
 <div style="text-align: center;">
 
-![banner](oscp\images\bash.png "banner")
+![banner](oscp/images/bash.png "banner")
 </div>
 
 <p>
@@ -157,5 +157,5 @@ Agora que temos tal permissão basta executar o bash e pegar nosso tão esperado
 
 <div style="text-align: center;">
 
-![banner](oscp\images\root.png "banner")
+![banner](oscp/images/root.png "banner")
 </div>
